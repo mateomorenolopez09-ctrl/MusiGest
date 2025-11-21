@@ -49,10 +49,10 @@ public class Album {
                 String cancion = sc.nextLine();
                 cancionesAlbum.add(cancion);
 
-                System.out.print("¿Deseas agregar otra canción? (s/n): ");
+                System.out.print("¿Deseas agregar otra canción? (si/no): ");
                 String opc = sc.nextLine();
 
-                if (opc.equalsIgnoreCase("n")) {
+                if (opc.equalsIgnoreCase("no")) {
                     agregarCanciones = false;
                 }
             }
